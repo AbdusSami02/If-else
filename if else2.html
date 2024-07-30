@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var number1 = +prompt("Enter a first number");
+    var number2 = +prompt("Enter a second number");
+    if (number1 === number2) {
+      document.write(`${number1} is equal to ${number2}`);
+    } else if (number1 > number2) {
+      document.write(
+        `${number1} is greater than to ${number2}`
+      );
+    } else if (number2 > number1) {
+      document.write(
+        `${number2}is greater than to ${number1}`
+      );
+    } else {
+      document.write(` Enter a valid number`);
+    }
+    </script>
+</body>
+</html>
